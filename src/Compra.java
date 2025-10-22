@@ -14,4 +14,12 @@ public class Compra {
     public String getDescripciòn() {
         return descripcion;
     }
+
+    @Override
+    public String toString() {
+        return "Compra{" +
+                "valor=" + valor +
+                ", descripcion='" + descripcion + '\'' +
+                '}';
+    }
 }

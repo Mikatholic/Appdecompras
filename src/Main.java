@@ -7,7 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner lectura = new Scanner(System.in);
         System.out.println("Escriba la lista de la tarjeta: ");
-
+        double limite = lectura.nextDouble();
+        TarjetaDeCredito tarjeta = new TarjetaDeCredito(limite);
 
 
     }

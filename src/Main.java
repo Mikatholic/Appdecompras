@@ -10,6 +10,7 @@ public class Main {
         double limite = lectura.nextDouble();
         TarjetaDeCredito tarjeta = new TarjetaDeCredito(limite);
 
+        int salir = 1;
 
     }
 }

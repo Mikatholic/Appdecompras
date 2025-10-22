@@ -17,8 +17,7 @@ public class Compra {
 
     @Override
     public String toString() {
-        return "Compra{" +
-                "valor=" + valor +
+        return "Compra: valor=" + valor +
                 ", descripcion='" + descripcion + '\'' +
                 '}';
     }

@@ -1,12 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class TarjetaDeCredito {
     private double limite;
     private double saldo;
-    private List<Compra> listaDeCompra;
+    private List<Compra> listaDeCompras;
 
     public TarjetaDeCredito(double limite) {
         this.limite = limite;
         this.saldo = limite;
-        this.listaDeCompra = new ArrayList<>();
+        this.listaDeCompras = new ArrayList<>();
     }
 
     public double getLimite() {
@@ -17,7 +20,7 @@ public class TarjetaDeCredito {
         return saldo;
     }
 
-    public List<Compra> getListaDeCompra() {
-        return listaDeCompra;
+    public List<Compra> getListaDeCompras() {
+        return listaDeCompras;
     }
 }

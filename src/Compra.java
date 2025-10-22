@@ -11,7 +11,7 @@ public class Compra implements Comparable<Compra>{
         return valor;
     }
 
-    public String getDescripciòn() {
+    public String getDescripcion() {
         return descripcion;
     }
 

@@ -1,9 +1,17 @@
 public class Compra {
     private double valor;
-    private String descripciòn;
+    private String descripcion;
 
-    public Compra(double valor, String descripciòn) {
+    public Compra(double valor, String descripcion) {
         this.valor = valor;
-        this.descripciòn = descripciòn;
+        this.descripcion = descripcion;
+    }
+
+    public double getValor() {
+        return valor;
+    }
+
+    public String getDescripciòn() {
+        return descripcion;
     }
 }
